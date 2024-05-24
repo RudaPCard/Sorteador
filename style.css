@@ -6,15 +6,24 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
+    
+    
 }
 
 body {
-    background: #000000;
+   background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
+}
+
+body img {
+    width: 500px; /* largura desejada */
+    height: auto; /* altura automática para manter a proporção */
+    flex-direction: column;
 }
 
 h2 {
@@ -40,6 +49,7 @@ input {
     line-height: 47px;
     color: #ffffff;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .input-min {
@@ -51,7 +61,7 @@ button {
     background: #AEC346;
     box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
     border-radius: 10px;
-    width: 342px;
+    width: 850px;
     height: 72px;
     color: #ffffff;
     font-weight: 700;
@@ -62,7 +72,7 @@ button {
 }
 
 #resultadoInput {
-    background: #14d80a;
+    background: #5acf54;
     box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
     border-radius: 10px;
     width: 400px;
@@ -74,6 +84,8 @@ button {
     border: none;
     appearance: none;
     text-align: center;
+    display: none;
+    cursor: pointer;
     
     
 }
