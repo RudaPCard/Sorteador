@@ -61,6 +61,23 @@ button {
     cursor: pointer;
 }
 
+#resultadoInput {
+    background: #14d80a;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 80px;
+    border: none;
+    appearance: none;
+    text-align: center;
+    
+    
+}
+
 button:hover {
     opacity: 0.9;
 }
